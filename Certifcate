@@ -9,3 +9,5 @@ Step 2> download certificate from internet
 Step 3> run below command to add certificate
 
 >>>>>> keytool -import -file D:\Project_Docs\sample.crt -alias sample -keystore "C:\Program Files\Java\jre1.8.0_221\lib\security\cacerts"
+
+default password :: changeit
