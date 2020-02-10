@@ -1,0 +1,11 @@
+========== Add Certifacte ===============
+
+Step 1> to check certificate exits or not
+
+>>>>>>  keytool -list -keystore "%JAVA_HOME%/jre/lib/security/cacerts"
+
+Step 2> download certificate from internet
+
+Step 3> run below command to add certificate
+
+>>>>>> keytool -import -file D:\Project_Docs\sample.crt -alias sample -keystore "C:\Program Files\Java\jre1.8.0_221\lib\security\cacerts"
